@@ -1,0 +1,15 @@
+@import '_shared-styles/libs';
+@import '_shared-styles/base';
+@import '_shared-styles/breakpoints';
+
+.container {
+	display: block;
+	width: 100%;
+	min-height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+	@include breakpoint($breakpoint--ipad-vertical) {
+		width: 800px;
+	}
+}

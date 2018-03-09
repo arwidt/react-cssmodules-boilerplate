@@ -1,0 +1,6 @@
+
+$transition_default: cubic-bezier(0.17, 0.04, 0.03, 0.94);
+
+%animation__smooth-all-default {
+	transition: all .3s $transition_default;
+}
